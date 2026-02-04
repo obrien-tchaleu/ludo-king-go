@@ -1,0 +1,15 @@
+# Binaries
+*.exe
+*.out
+*.bin
+
+# Build folders
+bin/
+dist/
+
+# Go
+/vendor/
+
+# OS
+.DS_Store
+Thumbs.db
