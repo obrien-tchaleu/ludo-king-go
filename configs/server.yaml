@@ -1,0 +1,21 @@
+server:
+  host: "0.0.0.0"        # Écouter sur toutes les interfaces
+  port: "8080"           # Port du serveur
+  max_connections: 1000  # Maximum de connexions simultanées
+
+database:
+  host: "localhost"
+  port: "3306"
+  username: "root"
+  password: "Queen 2016"  # ⚠️ IMPORTANT: Changez ce mot de passe
+  database: "ludo_king"
+
+game:
+  max_players_per_room: 4
+  min_players_per_room: 2
+  turn_timeout: 30           # Secondes par tour
+  reconnect_timeout: 60      # Temps de reconnexion autorisé
+
+logging:
+  level: "info"              # debug, info, warn, error
+  file: "logs/server.log"

@@ -1,0 +1,22 @@
+client:
+  default_server: "localhost:8080"  # Adresse du serveur par défaut
+  reconnect_attempts: 3
+  reconnect_delay: 2s
+
+ui:
+  theme: "dark"           # dark ou light
+  window_width: 1280
+  window_height: 720
+  fullscreen: false
+  vsync: true
+
+audio:
+  enabled: true
+  music_volume: 0.7       # 0.0 à 1.0
+  sfx_volume: 0.8
+
+graphics:
+  quality: "high"         # low, medium, high, ultra
+  antialiasing: true
+  shadows: true
+  particles: true
